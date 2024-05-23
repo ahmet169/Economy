@@ -18,10 +18,10 @@ public final class Economy extends JavaPlugin {
     @Override
     public void onEnable() {
         instance = this;
+        saveDefaultConfig();
         database = new Database();
         database.createTables();
         manager = new EconomyManager();
-        saveDefaultConfig();
         getLogger().info("Economy by 169ahmet");
         register(Bukkit.getPluginManager());
     }
