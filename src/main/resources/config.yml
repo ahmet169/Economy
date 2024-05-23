@@ -1,0 +1,10 @@
+#Plugin by 169ahmet
+#MySQL hier
+mysql:
+  host: 'localhost'
+  port: 3306
+  username: 'user'
+  password: 'password'
+  database: 'minecraft'
+
+prefix: '§6Coins §8» '
